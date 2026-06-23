@@ -1,10 +1,49 @@
-<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>𝔦𝔱.𝔵𝔦𝔫.𝔥𝔢𝔩</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"><link rel="stylesheet" href="style.css"></head>
-<body><div id="cursor"></div><video autoplay muted loop playsinline id="bg-video"><source src="background.mp4"></video>
-<div id="particles"></div>
-<audio id="music" autoplay loop><source src="songs/song1.mp3"></audio>
-<div class="card"><img src="profile.jpg" class="avatar"><h1>𝔦𝔱.𝔵𝔦𝔫.𝔥𝔢𝔩</h1><p>You and Me</p>
-<div class="player"><img src="cover.jpg" class="cover"><div id="songName">Song 1</div>
-<button onclick="changeSong(0)">1</button><button onclick="changeSong(1)">2</button><button onclick="changeSong(2)">3</button>
-<input type="range" id="volume" min="0" max="1" step="0.01" value="0.5"></div>
-<a class="discord"><i class="fab fa-discord"></i> k3v_sync</a></div><script src="script.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𝔦𝔱.𝔵𝔦𝔫.𝔥𝔢𝔩</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<video autoplay muted loop playsinline id="bg-video">
+    <source src="background.mp4" type="video/mp4">
+</video>
+
+<div class="card">
+
+    <img src="profile.jpg" class="avatar">
+
+    <h1 class="name">
+        𝔦𝔱.𝔵𝔦𝔫.𝔥𝔢𝔩
+        <span class="sparkles">✦ ✦ ✦</span>
+    </h1>
+
+    <p>You and Me</p>
+
+    <div class="music-box">
+
+        <img src="cover.jpg" class="cover">
+
+        <h3>Miss You</h3>
+
+        <audio id="music" controls autoplay loop>
+            <source src="song1.mp3" type="audio/mpeg">
+        </audio>
+
+    </div>
+
+    <div class="socials">
+        <i class="fab fa-discord"></i> k3v_sync
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
